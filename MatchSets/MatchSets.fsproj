@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Model.fs" />
+    <Compile Include="Common.fs" />
+    <Compile Include="Special.fs" />
+    <Compile Include="BruteForce.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SetOperations">
+      <HintPath>..\..\SO_ColorGroups\SetOperations\bin\Release\netstandard2.0\SetOperations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
